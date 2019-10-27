@@ -1,0 +1,26 @@
+{
+  "name": "exercise-tracker-microservice",
+  "version": "1.0.0",
+  "description": "The Exercise Tracker Microservice project for freeCodeCamp's APIs and Microservices Certification ",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/abdelrahmansafwat/exercise-tracker-microservice.git"
+  },
+  "author": "Abdelrahman M. Safwat",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/abdelrahmansafwat/exercise-tracker-microservice/issues"
+  },
+  "homepage": "https://github.com/abdelrahmansafwat/exercise-tracker-microservice#readme",
+  "dependencies": {
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "mongodb": "^3.3.3",
+    "mongoose": "^5.7.7"
+  }
+}
